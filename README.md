@@ -31,12 +31,12 @@ Lingnan Journal of Chinese Studies -Supplementary revised materials for "Confuci
 For detailed file descriptions, see `Supplementary Materials Guide.docx`.
 
 ---
-## Citation
+## 引用 Citation
 
 ```
 孔子衣鏡與早期孔子書寫——基於文本相似性的比較.《嶺南學報》數字人文專號.
 ```
-## License
+## 授權 License
 
 This material set is intended solely for academic research. Please cite the paper when using these materials.
 
