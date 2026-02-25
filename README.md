@@ -1,8 +1,10 @@
 # CDM-revised-supplement-20260226
-Lingnan Journal of Chinese Studies -Supplementary revised materials for "Confucious Dressing Mirror and Early Confucian Writings ————A Comparison Based on Textual Similarity" 
--嶺南學報 — 數字人文論文補充材料-“孔子衣鏡與早期孔子書寫——基於文本相似性的比较“ （修訂版）
-# CDM-revised-supplement-20260226
 
+## 孔子衣鏡與早期孔子書寫——基於文本相似性的比較（修訂版）
+
+**Lingnan Journal of Chinese Studies — Supplementary Revised Materials**
+
+**嶺南學報 — 數字人文論文補充材料**
 
 ---
 
@@ -31,12 +33,14 @@ Lingnan Journal of Chinese Studies -Supplementary revised materials for "Confuci
 For detailed file descriptions, see `Supplementary Materials Guide.docx`.
 
 ---
-## 引用 Citation
+
+## Citation
 
 ```
 孔子衣鏡與早期孔子書寫——基於文本相似性的比較.《嶺南學報》數字人文專號.
 ```
-## 授權 License
+
+## License
 
 This material set is intended solely for academic research. Please cite the paper when using these materials.
 

@@ -1,0 +1,62 @@
+N-gram Similarity Run Log
+========================================================================
+Start:   2026-02-23 12:54:14
+End:     2026-02-23 13:00:16
+Elapsed: 6m02s
+
+Config:
+- excel_path: /Users/lab/Desktop/文本語料/小樣本實驗-孔子衣鏡（歸一化版32篇）.xlsx
+- output_base_dir: /Users/lab/Desktop
+- out_dir: /Users/lab/Desktop/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B
+- output_name_tag: 202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B
+- granularity: h2
+- n: 2
+- topk_edge: 10
+- show_examples: True
+- strip_label_digits: False
+- heatmap_font_setting: /Users/lab/Desktop/字体合集/公文字体/公文字体合集/simhei.ttf
+- use_semantic: True
+- embed_model_size: 8B
+- use_reranker: True
+- reranker_model_size: 8B
+- normal_candidate_topk: 20
+- rerank_top_percent_non_h1: 3.0
+- result_cache_reuse: True
+- result_cache_write: True
+- result_cache_key: 28b4662cbe6302f0ae535c58e24b5daefbcf0a2b
+
+Summary:
+- h2: units=32, pairs=496, reranker_plan=496, rerank=all
+
+Outputs:
+- /Users/lab/Desktop/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B.xlsx
+- /Users/lab/Desktop/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B.docx
+- /Users/lab/Desktop/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B_preprocessed_monitor.docx
+- /Users/lab/Desktop/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B_pairwise_similarity_weights.docx
+- /Users/lab/Desktop/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B_h2_cos_raw.png
+- /Users/lab/Desktop/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B_h2_tfidf.png
+- /Users/lab/Desktop/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B_h2_jaccard.png
+- /Users/lab/Desktop/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B_h2_embed.png
+- /Users/lab/Desktop/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B_h2_top_pairs_cos_top10pct.png
+- /Users/lab/Desktop/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B_h2_Ward樹狀圖.png
+- /Users/lab/Desktop/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B_h2_MDS散點圖.png
+- /Users/lab/Desktop/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B_h2_Strength中心性.png
+- /Users/lab/Desktop/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B_h2_PCA_TF-IDF.png
+- /Users/lab/Desktop/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B_h2_Network圖.png
+- /Users/lab/Desktop/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B_聚類與中心性分析報告.docx
+
+Timeline:
+[12:54:14 +0.0s] Run started.
+[12:54:14 +0.0s] Input: /Users/lab/Desktop/文本語料/小樣本實驗-孔子衣鏡（歸一化版32篇）.xlsx
+[12:54:14 +0.0s] Output base dir: /Users/lab/Desktop
+[12:54:14 +0.0s] Config: granularity=h2, n=2, semantic=on(Qwen3-Embedding-8B), reranker=on(Qwen3-Reranker-8B), recall(h1/h2=all,normal=topk20), rerank(h1/h2=all,normal=top3%).
+[12:54:14 +0.0s] Output run dir: /Users/lab/Desktop/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B
+[12:54:14 +0.0s] Result cache policy: reuse=on, write=on.
+[12:54:14 +0.0s] Result cache key: 28b4662cbe6302f0...
+[12:59:57 +5m44s] [h2] analyze done: units=32, pairs=496, reranker_plan=496, rerank=all, time=5m44s.
+[13:00:07 +5m54s] [h2] plot bundle done in 10.2s.
+[13:00:13 +5m59s] [h2] clustering stage done in 5.2s.
+[13:00:13 +5m59s] Excel written: /Users/lab/Desktop/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B.xlsx (0.1s).
+[13:00:14 +6m01s] Word report written: /Users/lab/Desktop/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B.docx (1.7s).
+[13:00:15 +6m01s] Preprocessed monitor written: /Users/lab/Desktop/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B/202602231254＋small pipe＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Qwen3-Embedding-8B+Qwen3-Reranker-8B_preprocessed_monitor.docx (0.5s).
+[13:00:16 +6m02s] Pairwise weights doc written (1.0s).
