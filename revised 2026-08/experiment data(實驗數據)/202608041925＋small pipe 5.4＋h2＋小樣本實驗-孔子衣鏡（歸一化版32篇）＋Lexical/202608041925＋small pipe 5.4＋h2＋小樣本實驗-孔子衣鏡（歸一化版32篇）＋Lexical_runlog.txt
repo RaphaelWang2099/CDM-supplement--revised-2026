@@ -1,0 +1,46 @@
+N-gram Similarity Run Log
+========================================================================
+Start:   2026-08-04 19:25:55
+End:     2026-08-04 19:27:54
+Elapsed: 1m59s
+
+Config:
+- excel_path: /Users/wyf/Desktop/孔子衣镜 定稿 2607/CDM 202608/code/小樣本實驗-孔子衣鏡（歸一化版32篇）.xlsx
+- output_base_dir: /Users/wyf/Desktop/孔子衣镜 定稿 2607/CDM 202608/run output
+- out_dir: /Users/wyf/Desktop/孔子衣镜 定稿 2607/CDM 202608/run output/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical
+- output_name_tag: 202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical
+- granularity: h2
+- n: 3
+- topk_edge: 10
+- show_examples: True
+- strip_label_digits: False
+- heatmap_font_setting: /Users/wyf/Desktop/孔子衣镜 定稿 2607/CDM 202608/code/fonts/simhei.ttf
+- use_semantic: False
+- embed_model_size: 8B
+- use_reranker: False
+- reranker_model_size: 8B
+- normal_candidate_topk: 20
+- rerank_top_percent_non_h1: 3.0
+- result_cache_reuse: False
+- result_cache_write: False
+
+Summary:
+- h2: units=32, pairs=496, reranker_plan=496, rerank=all
+
+Outputs:
+- /Users/wyf/Desktop/孔子衣镜 定稿 2607/CDM 202608/run output/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical.xlsx
+- /Users/wyf/Desktop/孔子衣镜 定稿 2607/CDM 202608/run output/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical.docx
+- /Users/wyf/Desktop/孔子衣镜 定稿 2607/CDM 202608/run output/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical_preprocessed_monitor.docx
+- /Users/wyf/Desktop/孔子衣镜 定稿 2607/CDM 202608/run output/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical_pairwise_similarity_weights.docx
+- /Users/wyf/Desktop/孔子衣镜 定稿 2607/CDM 202608/run output/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical_h2_cos_raw.png
+- /Users/wyf/Desktop/孔子衣镜 定稿 2607/CDM 202608/run output/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical_h2_tfidf.png
+- /Users/wyf/Desktop/孔子衣镜 定稿 2607/CDM 202608/run output/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical_h2_jaccard.png
+- /Users/wyf/Desktop/孔子衣镜 定稿 2607/CDM 202608/run output/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical_h2_top_pairs_cos_top10pct.png
+- /Users/wyf/Desktop/孔子衣镜 定稿 2607/CDM 202608/run output/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical_h2_Ward樹狀圖.png
+- /Users/wyf/Desktop/孔子衣镜 定稿 2607/CDM 202608/run output/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical_h2_MDS散點圖.png
+- /Users/wyf/Desktop/孔子衣镜 定稿 2607/CDM 202608/run output/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical_h2_Strength中心性.png
+- /Users/wyf/Desktop/孔子衣镜 定稿 2607/CDM 202608/run output/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical_h2_PCA_TF-IDF.png
+- /Users/wyf/Desktop/孔子衣镜 定稿 2607/CDM 202608/run output/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical_h2_Network圖.png
+- /Users/wyf/Desktop/孔子衣镜 定稿 2607/CDM 202608/run output/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical/202608041925＋small pipe 5.4＋h2＋小樣本實驗-孔子衣鏡（歸一化版32篇）＋Lexical_聚類與中心性分析報告.docx
+
+Timeline:

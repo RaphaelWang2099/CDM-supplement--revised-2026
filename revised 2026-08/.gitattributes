@@ -1,0 +1,6 @@
+# 本更新包體積小（全包約 83 MB，最大單檔 12 MB，唯一 xlsx 僅 80 KB），
+# 不使用 Git LFS：走普通 blob，讀者用 GitHub「Download ZIP」即可直接取得真檔。
+# （倉庫根目録的 LFS 規則僅適用於 20260226 舊包。）
+*.xlsx -filter -diff -merge -text
+*.json -filter -diff -merge -text
+*.npy  -filter -diff -merge -text
